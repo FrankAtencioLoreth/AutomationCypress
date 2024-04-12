@@ -1,0 +1,269 @@
+[
+  {
+    "description": "User Story: Login Automation Test\n\nAs a customer,\nI want an automated test of the login process\nto ensure system functionality and security",
+    "keyword": "Feature",
+    "name": "",
+    "line": 1,
+    "id": "",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": ";login-user-with-correct-email-and-password",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login User with correct email and password",
+        "tags": [
+          {
+            "name": "@TCLG001",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1564000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "automation@testing.com",
+                      "automation123."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clicks the login button",
+            "result": {
+              "status": "passed",
+              "duration": 1936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should be redirected to the home",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "a valid session should be created",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": ";login-user-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Login User with incorrect email and password",
+        "tags": [
+          {
+            "name": "@TCLG002",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1335000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "automation@testcas.com",
+                      "automation123."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user enters invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "clicks the login button",
+            "result": {
+              "status": "passed",
+              "duration": 744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "an error message should be displayed \"Your email or password is incorrect!\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user should remain on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": ";successful-logout",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Successful Logout",
+        "tags": [
+          {
+            "name": "@TCLG003",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "automation@testing.com",
+                      "automation123."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user enters valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "clicks the login button",
+            "result": {
+              "status": "passed",
+              "duration": 2435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the user should be redirected to the home",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "clicks the logout button",
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user should be redirected to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
