@@ -1,4 +1,4 @@
-Feature:
+Feature: Login
 
 User Story: Login Automation Test
 

@@ -2,14 +2,14 @@
   {
     "description": "User Story: Login Automation Test\n\nAs a customer,\nI want an automated test of the login process\nto ensure system functionality and security",
     "keyword": "Feature",
-    "name": "",
+    "name": "Login",
     "line": 1,
-    "id": "",
+    "id": "login",
     "tags": [],
     "uri": "Login.feature",
     "elements": [
       {
-        "id": ";login-user-with-correct-email-and-password",
+        "id": "login;login-user-with-correct-email-and-password",
         "keyword": "Scenario",
         "line": 10,
         "name": "Login User with correct email and password",
@@ -28,7 +28,7 @@
             "name": "the user is on the login page",
             "result": {
               "status": "passed",
-              "duration": 1564000000
+              "duration": 2489000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "the user enters valid credentials",
             "result": {
               "status": "passed",
-              "duration": 700000000
+              "duration": 714000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "clicks the login button",
             "result": {
               "status": "passed",
-              "duration": 1936000000
+              "duration": 2266000000
             }
           },
           {
@@ -75,7 +75,7 @@
             "name": "the user should be redirected to the home",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 7000000
             }
           },
           {
@@ -85,13 +85,13 @@
             "name": "a valid session should be created",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 29000000
             }
           }
         ]
       },
       {
-        "id": ";login-user-with-incorrect-email-and-password",
+        "id": "login;login-user-with-incorrect-email-and-password",
         "keyword": "Scenario",
         "line": 20,
         "name": "Login User with incorrect email and password",
@@ -110,7 +110,7 @@
             "name": "the user is on the login page",
             "result": {
               "status": "passed",
-              "duration": 1335000000
+              "duration": 1676000000
             }
           },
           {
@@ -137,7 +137,7 @@
             "name": "the user enters invalid credentials",
             "result": {
               "status": "passed",
-              "duration": 695000000
+              "duration": 707000000
             }
           },
           {
@@ -147,7 +147,7 @@
             "name": "clicks the login button",
             "result": {
               "status": "passed",
-              "duration": 744000000
+              "duration": 1247000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "an error message should be displayed \"Your email or password is incorrect!\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 12000000
             }
           },
           {
@@ -167,13 +167,13 @@
             "name": "the user should remain on the login page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 3000000
             }
           }
         ]
       },
       {
-        "id": ";successful-logout",
+        "id": "login;successful-logout",
         "keyword": "Scenario",
         "line": 30,
         "name": "Successful Logout",
@@ -192,7 +192,7 @@
             "name": "the user is on the login page",
             "result": {
               "status": "passed",
-              "duration": 1003000000
+              "duration": 720000000
             }
           },
           {
@@ -219,7 +219,7 @@
             "name": "the user enters valid credentials",
             "result": {
               "status": "passed",
-              "duration": 677000000
+              "duration": 679000000
             }
           },
           {
@@ -229,7 +229,7 @@
             "name": "clicks the login button",
             "result": {
               "status": "passed",
-              "duration": 2435000000
+              "duration": 1913000000
             }
           },
           {
@@ -239,7 +239,7 @@
             "name": "the user should be redirected to the home",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 9000000
             }
           },
           {
@@ -249,7 +249,7 @@
             "name": "clicks the logout button",
             "result": {
               "status": "passed",
-              "duration": 965000000
+              "duration": 1993000000
             }
           },
           {
@@ -259,7 +259,7 @@
             "name": "the user should be redirected to the login page",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 4000000
             }
           }
         ]
