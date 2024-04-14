@@ -32,7 +32,10 @@ module.exports = defineConfig({
       homepage: "/",
       products: "/products",
       authentication: "/login",
-      cart: "/cart"
+      signup: "/signup",
+      accountCreated: "/account_created",
+      cart: "/cart",
+      contactUsForm: "/contact_us"
     }
 
   }

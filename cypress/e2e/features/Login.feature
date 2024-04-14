@@ -36,4 +36,3 @@ Scenario: Successful Logout
     Then the user should be redirected to the home
     And clicks the logout button
     Then the user should be redirected to the login page
-
