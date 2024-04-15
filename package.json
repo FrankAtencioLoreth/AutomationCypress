@@ -3,7 +3,6 @@
     "@faker-js/faker": "^8.4.1",
     "cypress": "^13.7.3",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress-cucumber-tagging": "^1.0.3",
     "cypress-xpath": "^2.0.1",
     "multiple-cucumber-html-reporter": "^3.6.2"
   },
@@ -176,7 +175,6 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -193,6 +191,8 @@
   },
   "homepage": "https://github.com/FrankAtencioLoreth/AutomationCypress#readme",
   "cypress-cucumber-preprocessor": {
+    "filterSpecs": true,
+    "omitFiltered": true,
     "nonGlobalStepDefinitions": false,
     "stepDefinitions": "cypress/e2e/stepsDefinitions",
     "cucumberJson": {

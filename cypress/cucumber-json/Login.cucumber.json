@@ -27,7 +27,8 @@
             "line": 11,
             "name": "the user is on the login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2045000000
             }
           },
           {
@@ -53,7 +54,8 @@
             "line": 12,
             "name": "the user enters valid credentials",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 773000000
             }
           },
           {
@@ -62,7 +64,8 @@
             "line": 15,
             "name": "clicks the login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2269000000
             }
           },
           {
@@ -71,7 +74,8 @@
             "line": 16,
             "name": "the user should be redirected to the home",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4000000
             }
           },
           {
@@ -80,7 +84,8 @@
             "line": 17,
             "name": "a valid session should be created",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 32000000
             }
           }
         ]
@@ -104,7 +109,8 @@
             "line": 21,
             "name": "the user is on the login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 946000000
             }
           },
           {
@@ -130,7 +136,8 @@
             "line": 22,
             "name": "the user enters invalid credentials",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 696000000
             }
           },
           {
@@ -139,7 +146,8 @@
             "line": 25,
             "name": "clicks the login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 848000000
             }
           },
           {
@@ -148,7 +156,8 @@
             "line": 26,
             "name": "an error message should be displayed \"Your email or password is incorrect!\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 11000000
             }
           },
           {
@@ -157,7 +166,8 @@
             "line": 27,
             "name": "the user should remain on the login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4000000
             }
           }
         ]
@@ -181,7 +191,8 @@
             "line": 31,
             "name": "the user is on the login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1206000000
             }
           },
           {
@@ -207,7 +218,8 @@
             "line": 32,
             "name": "the user enters valid credentials",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 772000000
             }
           },
           {
@@ -216,7 +228,8 @@
             "line": 35,
             "name": "clicks the login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1970000000
             }
           },
           {
@@ -225,7 +238,8 @@
             "line": 36,
             "name": "the user should be redirected to the home",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9000000
             }
           },
           {
@@ -234,7 +248,8 @@
             "line": 37,
             "name": "clicks the logout button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 842000000
             }
           },
           {
@@ -243,7 +258,8 @@
             "line": 38,
             "name": "the user should be redirected to the login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8000000
             }
           }
         ]

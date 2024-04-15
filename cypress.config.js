@@ -11,7 +11,7 @@ module.exports = defineConfig({
 
     baseUrl: "https://automationexercise.com",
 
-    "specPattern": "**/*.feature",
+    specPattern: "**/*.feature",
 
     defaultCommandTimeout: 10000,
 
@@ -31,6 +31,7 @@ module.exports = defineConfig({
     endpoints: {
       homepage: "/",
       products: "/products",
+      productDetail: "product_details",
       authentication: "/login",
       signup: "/signup",
       accountCreated: "/account_created",
