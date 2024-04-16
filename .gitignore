@@ -1,6 +1,6 @@
 node_modules/
 .env
-.run
+.run/
 cucumber-json/
 cucumber-report/
 cypress/tests_results

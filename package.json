@@ -174,8 +174,7 @@
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrankAtencioLoreth/AutomationCypress.git"
