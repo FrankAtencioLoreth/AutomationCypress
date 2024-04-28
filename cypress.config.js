@@ -42,7 +42,6 @@ module.exports = defineConfig({
   },
   
   env: {
-
     endpoints: {
       homepage: "/",
       products: "/products",
@@ -50,7 +49,9 @@ module.exports = defineConfig({
       authentication: "/login",
       signup: "/signup",
       accountCreated: "/account_created",
-      cart: "/cart",
+      cart: "/view_cart",
+      checkout: "/checkout",
+      payment: "/payment",
       contactUsForm: "/contact_us"
     }
   }

@@ -13,7 +13,9 @@ class ProductPage {
         availability: () => cy.get('.product-information > p').eq(1).should('be.visible'),
         condition: () => cy.get('.product-information > p').eq(2).should('be.visible'),
         brand: () => cy.get('.product-information > p').eq(3).should('be.visible'),
-        searchProductName: () => cy.get('.productinfo > p')
+        searchProductName: () => cy.get('.productinfo > p'),
+        addToCartButton: () => cy.get('.product-information > span > button'),
+        ViewCart: () => cy.get('#cartModal > div > div > div.modal-body > p:nth-child(2) > a')
     }
 
     //Methods & functions
@@ -25,6 +27,14 @@ class ProductPage {
     searchProduct(data) {
         this.get.searProductInput().clear().type(data);
         this.get.searchButton().click();
+    }
+
+    clickToAddProductToCart() {
+        this.get.addToCartButton().click({force: true});
+    }
+
+    clickToViewCart() {
+        this.get.ViewCart().click();
     }
     
 }

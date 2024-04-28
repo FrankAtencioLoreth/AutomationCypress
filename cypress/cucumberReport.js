@@ -1,5 +1,3 @@
-
-
 const report = require('multiple-cucumber-html-reporter');
 const fs = require('fs');
 
